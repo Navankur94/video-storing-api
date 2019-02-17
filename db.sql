@@ -1,0 +1,2 @@
+CREATE TABLE `video_store_db`.`tbl_video_store` ( `video_id` BIGINT NOT NULL AUTO_INCREMENT , `video_name` VARCHAR(100) NOT NULL , `video_full_name` VARCHAR(400) NOT NULL , PRIMARY KEY (`video_id`)) ENGINE = InnoDB;
+CREATE TABLE `video_store_db`.`tbl_playlist` ( `playlist_id` BIGINT NOT NULL AUTO_INCREMENT , `video_id` BIGINT NOT NULL , `playlist_name` VARCHAR(500) NOT NULL , PRIMARY KEY (`playlist_id`)) ENGINE = InnoDB;
